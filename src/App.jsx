@@ -1,3 +1,4 @@
+import React from "react";
 import './App.css'
 import AllRoutes from './routes/allRoutes'
 import Header from './components/header'
@@ -8,10 +9,10 @@ function App() {
 
   return (
     <>
-       <Header />
-       <div className='dark:bg-slate-800'>
+      <Header />
+      <div className='dark:bg-slate-800'>
         <AllRoutes />
-       </div>
+      </div>
       <Footer />
     </>
   )

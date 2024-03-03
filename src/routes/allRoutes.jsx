@@ -1,3 +1,4 @@
+import React from "react";
 import { Route, Routes } from 'react-router-dom';
 import MovieList from '../pages/movieList';
 import MovieDetail from '../pages/movieDetail';
